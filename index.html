@@ -24,6 +24,8 @@
     <hr>
 
 
+    <button onclick="window.print()" accesskey="p" aria-label="descripcion imprimir">Imprimir</button>
+
     <!-- opciones para visualizar las vacunas -->
     <div class="desplegable">
         <h3>Indique la edad de su hijo</h3>
@@ -38,21 +40,19 @@
     </div>
 
 
-    <div class="icono-accesibilidad" onclick="mostrarOcultar()">
+    <div class="icono-accesibilidad" onclick="mostrarOcultar()" accesskey="h">
         <img src="img/acces.svg" alt="Icono accesibilidad">
 
     </div>
 
     <!-- barra lateral de accesibilidad -->
     <div class="accesibilidad">
-
         <h2>Accesibilidad</h2>
         <button id="aumentar">Aumentar Fuente</button>
         <button id="reducir">Reducir Fuente</button>
         <button id="escalaGrises">Escala de grises</button>
         <button id="altoContraste">Alto Contraste</button>
         <button id="restablecer">Restablecer</button>
-
     </div>
 
     <!-- imagen de vacunacion -->
@@ -64,7 +64,6 @@
 
 
     <footer>
-
         <p>Ceat-Formacion</p>
         <p>Alumno: Mónico Bellón Morales</p>
         <p>Profesora: Irina medina</p>
